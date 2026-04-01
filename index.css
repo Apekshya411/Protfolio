@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: scroll;
+    background-image: url(https://www.nortonrosefulbright.com/-/media/images/nrf/iwd-2026-quotes/iwd-2026update-to-2025website-hero-banner-1920x1080-1.jpg?revision=fe102c2f-171b-4b2d-b8a0-ead8bc9983cc&revision=5250768187837387904);
+    background-size: 100%;
+}
+
+#header {
+    background-color: blueviolet;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 800px;
+    align-items: center;
+    padding: 7px 0px;
+
+}
+
+.header-content1 {
+    font-family: serif;
+    font-size: small;
+    text-decoration: none;
+}
+
+.header-content2 {
+    font-family: serif;
+    font-size: small;
+}
+
+.header-content3 {
+    font-family: serif;
+    font-size: small;
+}
+
+.header-content1>h1>a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-content2>h1>a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-content3>h1>a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-content4>h1>a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.img1 {
+    border: 2px;
+    border-color: rgb(88, 17, 17);
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+.start-parent {
+    margin: auto;
+    padding: 80px;
+    flex-direction: row;
+}
+
+.start {
+    text-decoration: overline underline double;
+    margin: auto;
+    justify-content: center;
+    padding: 20px 00px;
+    font-style: italic;
+    font-size: 3rem;
+    display: flex;
+    gap: 20px;
+    color: rgb(69, 33, 33);
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+}
+
+.start-content {
+    display: flex;
+    gap: 5cm;
+    margin: auto;
+    padding: 00 200px;
+}
+
+.intro {
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    border-color: goldenrod;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10%;
+    box-shadow: 20px;
+    background-color: rgb(155, 113, 178);
+    font-family: "Felipa", serif;
+    font-weight: 200;
+    font-style: normal;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.skills {
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    border-color: goldenrod;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10%;
+    box-shadow: 20px;
+    background-color: rgb(155, 113, 178);
+    font-family: "Felipa", serif;
+    font-weight: 200;
+    font-style: normal;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.header-content1 {
+    font-family: serif;
+    font-size: small;
+    text-align: top;
+    text-decoration: none;
+}
+
+.header-content2 {
+    font-family: serif;
+    font-size: small;
+    text-align: top;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.header-content3 {
+    font-family: serif;
+    font-size: small;
+    text-align: top;
+    text-decoration: none;
+}
+
+.header-content4 {
+    font-family: serif;
+    font-size: small;
+    text-align: top;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
